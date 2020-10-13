@@ -78,6 +78,10 @@ background(220);
      bananasGroup.setVelocityEach(0);
     obstaclesGroup.setVelocityEach(0);
     
+    if(keyDown("R")){
+   gameState=PLAY;
+
+    }
   }
   
   
